@@ -17,12 +17,20 @@
   background-color: #253141;
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .shita {
   background-color: #2F3E51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll
+}
+
+.shita {
+  padding: 20px 20px 40px 20px;
 }
 
 .main-ue {
@@ -41,4 +49,26 @@
   background-color: #DDDDDD;
   height: 90px;
   padding: 20px 40px;
+}
+
+.name a {
+  color: #FAFAFA;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.chatbottom {
+  font-size: 10px;
+}
+
+.chatbottom a {
+  border: 1px solid lightblue;
+  padding: 14px;
+  color: deepskyblue;
+  text-decoration: none;
+}
+
+.chatroom a {
+  color: white;
+  text-decoration: none;
 }
